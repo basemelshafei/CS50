@@ -1,0 +1,17 @@
+Binary = 0 or 1
+Bit = the smallest unit of structure for a computer which holds a binary outcome either 0 or 1
+Byte = 8 bits  00000000 -> 11111111 : 0 -> 255 (256)
+ASCII = any letter or number can be represented in byte 
+Unicode = more general that ASCII, uses 1/2/3/4 Bytes 
+All colors are combinations of RGB (red,green,blue) -> 255,255,255
+Images are represented as pixels -> a pixel is a color 
+Videos = multiple images played sequentially (frames) 
+input -> Algorithm -> output
+Algorithm -> the steps to solve a problem in a fast way 
+Always try to split 50/50 am i closer to the first 50 or last 50 and move on to get closer to your target (removing half of the work each iteration)
+Consider all possibilities when writing code, they should all be represented if A then 1 elif B then 2 ... else 0 
+Pesoudocode -> your Algorithm in plain simple English, before it is moved to the right syntax
+Easiest programming language is SCRATCH. it is a visualization based software to write program
+Functions are defined, they are tailored with arguments / parameters, parameters can be defined in function (static) or fed to the function (dynamic) 
+
+
