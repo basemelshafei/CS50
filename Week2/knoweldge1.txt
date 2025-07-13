@@ -1,0 +1,70 @@
+source code = high level code that we write (compiler understands and translates to binary)
+c language - hello.c
+cope hello.c creates a c file 
+make hello = compile the script
+./hello runs the script 
+printf = print exactly what i give you 
+you can add a \n to make terminal go to the next line after running your script 
+code lines in c must end with a semicolon
+#include <stdio.h> this is a library that you included to be able to use printf
+
+int main (void)
+{
+    my_code
+}
+
+%s = placeholder (s = string) = replaced with answer
+printf ("Hello, %s\n", answer)
+variables in c should always be defined 
+== compare L to R (= is used to assign right to left)
+
+int main(void)
+{
+    int x = 19;
+    int y = 8;
+    if (x<y)
+    {
+        printf("x is less than y\n");
+    }
+    else if (x>y)
+    {
+        printf("x is not less than y");
+    }
+    else
+    {
+        printf("x is equal to y");
+    }
+}
+
+or || and && 
+
+i -/+=n subtract/add n --/++ (n == 1)
+
+function(x) x is an input that will be required to run this function
+
+argument -> Function -> return value
+
+void is for a function with no return
+int is for a function with a returned int
+
+your function will have actual placeholders that will be replaced when used in another function or case:
+
+def add(a, b): -> function that requires a and b 
+ return a+b
+when add is used any other place it still needs a and b, however they are not defined, you can use defined variables (i.e. x and y) to use them
+def calc():
+    x=3
+    y=5
+    z = add(x,y)
+return z    
+ you have now used x and y in the calc function as a and b input for add function 
+
+
+you can nest a for loop inside a for loop if you want a task that requires two split tasks (an \n between the for loops - after the second for will separate them ion the print case)
+
+const int n == a variable that wont be changed in the future
+you can have a while loop to insist on getting a correct input from user
+
+Truncation float/double all your variables not to miss on decimals 
+%.3f will  give 3 significant figures for the value you are adding
+ 
