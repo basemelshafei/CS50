@@ -1,0 +1,29 @@
+source code -> Compiler -> Machine code 
+
+code compiling contains the following:
+    preprocessing: reading of libraries and fetching required Functions
+    compiling: convert your script to assembly file
+    assembling: assembly file converted to binary system 
+    linking: files (main that you write, libraries used -external and -internal) are combined into one to work the entire script 
+
+decompile (cracking): reverse engineering that allows developers to read the source code of a file for different reasons 
+
+Debugging
+
+1) using debug50 ./hello - requires breakpoints (red dots on the left side)
+
+arrays = list of info int scores[3]; scores[0] =72; scores[2]=33...
+constant variables are better stored in capital blocks at start of code 
+
+in C language a string is just an array of characters 
+a string is always the length of chars +1, indicates a string is finished
+words[0][1] == the second char of the first array 
+
+last char of a string is \0, can be used to identify where string ends for any purpose 
+remember that when creating a function to use later you will need placeholders that can have different strings when used later (a,b -> x,y)
+
+
+Encryption 
+plaintext + key -> cipher -> cipher text
+
+
