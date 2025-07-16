@@ -1,0 +1,29 @@
+Week 3 Algorithms CS50- Ghareeb Elsheikh 
+
+Divide and Concur = fareq tasod, method to solve a problem by eliminating work and time by 50%
+
+linear search = when no info is given so solving a problem is based on iterative steps
+binary search = when a piece of information is given so approach is dependent on result of iterating and info provided
+
+Big O is used to describe an algorithm that would show a maximum number of iterations to reach the solution
+Omega is used for the best case scenario when the number of iterations is lowest
+theta is used to describe the middle part, when the number of iterations best and worst is the same 
+
+return stops the function, so if you need your function to stop in the middle of its code lines you put return inside a statement and another return at the end of the statement if the first is not method
+
+strings can't be compared with == in C language, should use strcmp() instead which is a function in a library in c
+strcmp returns 0 if the two values you art comparing are the same 
+
+if you are not applying mathematical functions to an integer save it as a string 
+ 
+Data Structures 
+    typedef struct = creates a data structure that allows for storing data in a specific structure 
+
+    if the data structure takes 2 inputs, then the first value in this structure  will have two inputs, the first input of the first value is people[0].name, second is people[0].number 
+
+Always visualize (FigJam) your problem first to understand it and see all the complexities involved. then try to solve it in the visual and break it down to steps (write them down) break it to small steps, then that is your algorithm
+
+for huge data - Recursion is necessary = it is the repetition of a function that uses itself, a function that calls itself from within (makes a loop)
+it is used to go through a problem from top to bottom you want to factorize until 10 you do factorizing for 10 then repeat the function (factorizing) for 10-1 then again 9-1 then 8-1 and so on (recursion)    
+
+fopen, fclose, fprintf, fscanf, 
