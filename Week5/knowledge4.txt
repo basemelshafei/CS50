@@ -1,0 +1,28 @@
+ Data Structures: how my data is stored in my Memory - which allows proper performance
+
+ abstract data types
+    Queues : following a line pattern when running something
+        FIFO : first come first serve 
+
+    Stack : picking something from a pile  
+        LIFO : last in first out   (makes sense with time served orders)
+
+    Push : adding to the structure (queueing)
+    Pop : removing from the structure (dequeuing)
+
+    garbage value fills in memory space because it cant be empty and gets replaced with data you feed and want to store     
+
+
+the main problem here is that you are creating a data space and then when you want to amend and add to it you duplicate it with the new amendment in the memory. what should be done is store the amendment and link it to the old structure
+
+Linked lists : use pointers to link data stored at a different location in the memory and link it to your old structure one variable has a value and a pointer that points to the location of the next variable
+storage can come at the expense of time, so it is a matter of what is needed when 
+metadata : data that explains data, not primary by itself 
+
+Trees : stores the data pointing to either left or right and takes it iteratively - hierarchy 
+
+Dictionaries : almost can call them two arrays (key, value) 
+
+Hash tables : taking a constant number of iterations to search. it is an array of linked lists O(1). highly consuming of the memory space 
+
+Tries : array of trees 
