@@ -1,0 +1,89 @@
+python is high level language : far away from the bottom (computer)
+C is low level language : close to the language of the bottom (computer)
+
+code hello.py
+python hello.py 
+
+C gives more control over usage of memory as it is closer to the running compiler of the program so it is faster to run, while python allows less control over the memory and hence is slower to compile. however, python is quicker for writing scripts and building projects which saves time to program and complexity. 
+
+python applies spaces when printing so keep that in mind
+
+types of data in python:
+    bool
+    float
+    int
+    str 
+
+feeding input to python is always assumed as string, you can change to desired:
+    int() in python is a function that converts a value to integer 
+
+conditionals : 
+    if x > y:
+        print("x is not less than y")
+    elif x < y:
+        print("x is less than y")    
+    else:
+        print("x is equal to y")
+
+if i in [1, 2, 3, 4, 5]:
+    print("value is in list")        
+
+calling a function in python: s.lower() will lowercase the value of s
+
+Object oriented programming : code in python applies a strict to object style
+
+when you do not want a wrong input (while here in case the function is called more than once, it makes sure that you are in a loop for the first function until a correct input is given): 
+    while True:
+        try:
+            function
+            break
+        except ValueError:
+            function  
+
+def function_name():
+    print("")
+
+a function can be defined after a function that will use it, given it is called after it 
+
+truncation : print("{z:.50f}) - will give you 50 sig figs 
+
+integer overflow - storing too much digits - does not exist in python 
+
+Always consider nested loops when thinking of problems involving 2 domains
+
+apply function to range : sum(array) / len(array)
+
+when using an else with for and if loops the else is in the same line as the for as being with if will perform the function of else every time the if function is not performed. else is for when the output of all for iterations is not satisfied
+
+lists : names = ["basem", "alex", "mark]
+
+dictionaries : 
+people = [ 
+    {"name": "Alice", "age": 30},
+    {"name": "Bob", "age": 25},
+    {"name": "Charlie", "age": 35}
+]
+
+also : 
+
+people = {
+    "Alice": 30,
+    "Bob": 25,
+    "Sam": 35
+}
+
+in the second case the value for people[Bob] = 25
+
+sys : gets your system data, argv : name and file 
+
+import sys
+    sys.exit()
+from sys import exit
+    exit()
+
+pip install qrcode
+import qrcode
+img.save("google.png", "PNG")
+img = qrcode.make("link") - creates a qrcode for that link 
+
+ 
